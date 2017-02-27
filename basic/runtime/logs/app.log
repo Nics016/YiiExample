@@ -1,0 +1,3571 @@
+2017-02-23 14:44:27 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "helloWorld".' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('helloWorld', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-23 14:44:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'helloWorld'
+]
+
+$_COOKIE = [
+    '_csrf' => '4fa8a1f80add7b81e302a82c373fb13607d06e21f0f3cae8029c9ee991c6690fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Iuv-D0i5R6NsQq-dflTGOpY7iUR2-UkB\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WK7nO38AAAEAADqxDZEAAAAM'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; CrOS x86_64 9000.82.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ru;q=0.6'
+    'HTTP_COOKIE' => '_csrf=4fa8a1f80add7b81e302a82c373fb13607d06e21f0f3cae8029c9ee991c6690fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Iuv-D0i5R6NsQq-dflTGOpY7iUR2-UkB%22%3B%7D'
+    'HTTP_X_COMPRESS' => 'null'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '60963'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=helloWorld'
+    'REQUEST_URI' => '/basic/web/index.php?r=helloWorld'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487857467.372
+    'REQUEST_TIME' => 1487857467
+]
+2017-02-23 14:44:42 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/helloWorld' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('helloWorld', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/helloWorld', Array)
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-23 14:44:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/helloWorld'
+]
+
+$_COOKIE = [
+    '_csrf' => '4fa8a1f80add7b81e302a82c373fb13607d06e21f0f3cae8029c9ee991c6690fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Iuv-D0i5R6NsQq-dflTGOpY7iUR2-UkB\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WK7nSX8AAAEAADfH45QAAAAC'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; CrOS x86_64 9000.82.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ru;q=0.6'
+    'HTTP_COOKIE' => '_csrf=4fa8a1f80add7b81e302a82c373fb13607d06e21f0f3cae8029c9ee991c6690fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Iuv-D0i5R6NsQq-dflTGOpY7iUR2-UkB%22%3B%7D'
+    'HTTP_X_COMPRESS' => 'null'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '60973'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/helloWorld'
+    'REQUEST_URI' => '/basic/web/index.php?r=site/helloWorld'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487857481.948
+    'REQUEST_TIME' => 1487857481
+]
+2017-02-24 00:50:57 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'The use statement with non-compound name 'Yii' has no effect' in /opt/lampp/htdocs/basic/controllers/NewsController.php:3
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/BaseYii.php(288): yii\base\ErrorHandler->handleError(2, 'The use stateme...', '/opt/lampp/htdo...', 3, Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/BaseYii.php(288): yii\BaseYii::autoload()
+#2 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#3 [internal function]: spl_autoload_call('app\\controllers...')
+#4 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(633): class_exists('app\\controllers...')
+#5 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(591): yii\base\Module->createControllerByID('news')
+#6 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(517): yii\base\Module->createController('news/index')
+#7 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('news/index', Array)
+#8 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2017-02-24 00:50:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'news/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WK91YX8AAAEAACUfYOYAAAAA'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '53968'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news/index'
+    'REQUEST_URI' => '/basic/web/index.php?r=news/index'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487893857.902
+    'REQUEST_TIME' => 1487893857
+]
+2017-02-24 01:01:36 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '{', expecting '('' in /opt/lampp/htdocs/basic/controllers/NewsController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-24 01:01:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'news/items-list'
+]
+
+$_COOKIE = [
+    '_csrf' => '0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WK934H8AAAEAACWhzeEAAAAH'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '54031'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news/items-list'
+    'REQUEST_URI' => '/basic/web/index.php?r=news/items-list'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487894496.567
+    'REQUEST_TIME' => 1487894496
+]
+2017-02-24 01:02:01 [127.0.0.1][-][-][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: /opt/lampp/htdocs/basic/views/news/itemsList.php' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php:229
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/opt/lampp/htdo...', Array, Object(app\controllers\NewsController))
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('itemsList', Array, Object(app\controllers\NewsController))
+#2 /opt/lampp/htdocs/basic/controllers/NewsController.php(12): yii\base\Controller->render('itemsList')
+#3 [internal function]: app\controllers\NewsController->actionItemsList()
+#4 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('items-list', Array)
+#7 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('news/items-list', Array)
+#8 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2017-02-24 01:02:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'news/items-list'
+]
+
+$_COOKIE = [
+    '_csrf' => '0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WK93@X8AAAEAACWiaTcAAAAI'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '54033'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news/items-list'
+    'REQUEST_URI' => '/basic/web/index.php?r=news/items-list'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487894521.533
+    'REQUEST_TIME' => 1487894521
+]
+2017-02-24 01:06:33 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: newsList' in /opt/lampp/htdocs/basic/views/news/itemsList.php:6
+Stack trace:
+#0 /opt/lampp/htdocs/basic/views/news/itemsList.php(6): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/opt/lampp/htdo...', 6, Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php(328): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/opt/lampp/htdo...', Array)
+#3 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/opt/lampp/htdo...', Array, Object(app\controllers\NewsController))
+#4 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('itemsList', Array, Object(app\controllers\NewsController))
+#5 /opt/lampp/htdocs/basic/controllers/NewsController.php(17): yii\base\Controller->render('itemsList', Array)
+#6 [internal function]: app\controllers\NewsController->actionItemsList()
+#7 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('items-list', Array)
+#10 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('news/items-list', Array)
+#11 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-24 01:06:33 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'news/items-list'
+]
+
+$_COOKIE = [
+    '_csrf' => '0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WK95CX8AAAEAACUjtSoAAAAE'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '54056'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news/items-list'
+    'REQUEST_URI' => '/basic/web/index.php?r=news/items-list'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487894793.117
+    'REQUEST_TIME' => 1487894793
+]
+2017-02-24 01:09:33 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined function app\controllers\dataItems()' in /opt/lampp/htdocs/basic/controllers/NewsController.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-24 01:09:33 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'news/items-list'
+]
+
+$_COOKIE = [
+    '_csrf' => '0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WK95vX8AAAEAACWaLWgAAAAG'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '54060'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news/items-list'
+    'REQUEST_URI' => '/basic/web/index.php?r=news/items-list'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487894973.575
+    'REQUEST_TIME' => 1487894973
+]
+2017-02-24 01:09:34 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined function app\controllers\dataItems()' in /opt/lampp/htdocs/basic/controllers/NewsController.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-24 01:09:34 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'news/items-list'
+]
+
+$_COOKIE = [
+    '_csrf' => '0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WK95vn8AAAEAACWhzeQAAAAH'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '54061'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news/items-list'
+    'REQUEST_URI' => '/basic/web/index.php?r=news/items-list'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487894974.839
+    'REQUEST_TIME' => 1487894974
+]
+2017-02-24 01:15:27 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: title' in /opt/lampp/htdocs/basic/controllers/NewsController.php:32
+Stack trace:
+#0 /opt/lampp/htdocs/basic/controllers/NewsController.php(32): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/opt/lampp/htdo...', 32, Array)
+#1 [internal function]: app\controllers\NewsController->actionItemDetail()
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('item-detail', Array)
+#5 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('news/item-detai...', Array)
+#6 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-02-24 01:15:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'news/item-detail'
+    'title' => 'First World War'
+]
+
+$_COOKIE = [
+    '_csrf' => '0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WK97H38AAAEAACUfYO0AAAAA'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '54067'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news/item-detail&title=First%20World%20War'
+    'REQUEST_URI' => '/basic/web/index.php?r=news/item-detail&title=First%20World%20War'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487895327.664
+    'REQUEST_TIME' => 1487895327
+]
+2017-02-24 01:19:49 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: news/list-itmes' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('list-itmes', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('news/list-itmes', Array)
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-24 01:19:49 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'news/list-itmes'
+]
+
+$_COOKIE = [
+    '_csrf' => '0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WK98JX8AAAEAACWaLWkAAAAG'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '54076'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news/list-itmes'
+    'REQUEST_URI' => '/basic/web/index.php?r=news/list-itmes'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487895589.519
+    'REQUEST_TIME' => 1487895589
+]
+2017-02-24 01:19:53 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: news/list-items' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('list-items', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('news/list-items', Array)
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-24 01:19:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'news/list-items'
+]
+
+$_COOKIE = [
+    '_csrf' => '0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WK98KX8AAAEAACWaLWsAAAAG'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '54076'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news/list-items'
+    'REQUEST_URI' => '/basic/web/index.php?r=news/list-items'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487895593.031
+    'REQUEST_TIME' => 1487895593
+]
+2017-02-24 18:31:09 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: news/pages' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pages', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('news/pages', Array)
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-24 18:31:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'news/pages'
+    'view' => 'info'
+]
+
+$_COOKIE = [
+    '_csrf' => '0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WLBt3X8AAAEAACUjtTkAAAAE'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '54118'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news/pages&view=info'
+    'REQUEST_URI' => '/basic/web/index.php?r=news/pages&view=info'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487957469.357
+    'REQUEST_TIME' => 1487957469
+]
+2017-02-24 18:35:50 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'The view file does not exist: /opt/lampp/htdocs/basic/views/site/pages/contact.php' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/ViewAction.php:91
+Stack trace:
+#0 [internal function]: yii\web\ViewAction->run()
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Action.php(94): call_user_func_array(Array, Array)
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\Action->runWithParams(Array)
+#3 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pages', Array)
+#4 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/pages', Array)
+#5 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2017-02-24 18:35:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/pages'
+    'view' => 'contact'
+]
+
+$_COOKIE = [
+    '_csrf' => '0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WLBu9n8AAAEAACVDR1sAAAAF'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '54127'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/pages&view=contact'
+    'REQUEST_URI' => '/basic/web/index.php?r=site/pages&view=contact'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487957750.589
+    'REQUEST_TIME' => 1487957750
+]
+2017-02-24 18:36:44 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'The view file does not exist: /opt/lampp/htdocs/basic/views/site/pages/contact.php' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/ViewAction.php:91
+Stack trace:
+#0 [internal function]: yii\web\ViewAction->run()
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Action.php(94): call_user_func_array(Array, Array)
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\Action->runWithParams(Array)
+#3 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pages', Array)
+#4 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/pages', Array)
+#5 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2017-02-24 18:36:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/pages'
+    'view' => 'contact'
+]
+
+$_COOKIE = [
+    '_csrf' => '0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WLBvLH8AAAEAACUixdkAAAAD'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '54132'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/pages&view=contact'
+    'REQUEST_URI' => '/basic/web/index.php?r=site/pages&view=contact'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487957804.752
+    'REQUEST_TIME' => 1487957804
+]
+2017-02-25 00:12:53 [127.0.0.1][-][5scn5g7ik2r8f4dq8gusa2q0g4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/static' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('static', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/static', Array)
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-25 00:12:53 [127.0.0.1][-][5scn5g7ik2r8f4dq8gusa2q0g4][info][application] $_GET = [
+    'r' => 'site/static'
+    'view' => 'contact'
+    'bckg' => 'yellow'
+]
+
+$_COOKIE = [
+    '_csrf' => '0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW\";}'
+    'PHPSESSID' => '5scn5g7ik2r8f4dq8gusa2q0g4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'mihizax'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WLC99X8AAAEAACWhzfgAAAAH'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW%22%3B%7D; PHPSESSID=5scn5g7ik2r8f4dq8gusa2q0g4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '54162'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/static&view=contact&bckg=yellow'
+    'REQUEST_URI' => '/basic/web/index.php?r=site/static&view=contact&bckg=yellow'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487977973.695
+    'REQUEST_TIME' => 1487977973
+]
+2017-02-25 00:13:13 [127.0.0.1][-][5scn5g7ik2r8f4dq8gusa2q0g4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/static' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('static', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/static', Array)
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-25 00:13:13 [127.0.0.1][-][5scn5g7ik2r8f4dq8gusa2q0g4][info][application] $_GET = [
+    'r' => 'site/static'
+    'view' => 'contcat'
+]
+
+$_COOKIE = [
+    '_csrf' => '0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW\";}'
+    'PHPSESSID' => '5scn5g7ik2r8f4dq8gusa2q0g4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'mihizax'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WLC@CX8AAAEAACUg@3UAAAAB'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW%22%3B%7D; PHPSESSID=5scn5g7ik2r8f4dq8gusa2q0g4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '54164'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/static&view=contcat'
+    'REQUEST_URI' => '/basic/web/index.php?r=site/static&view=contcat'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487977993.106
+    'REQUEST_TIME' => 1487977993
+]
+2017-02-25 00:13:16 [127.0.0.1][-][5scn5g7ik2r8f4dq8gusa2q0g4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/static' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('static', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/static', Array)
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-25 00:13:16 [127.0.0.1][-][5scn5g7ik2r8f4dq8gusa2q0g4][info][application] $_GET = [
+    'r' => 'site/static'
+    'view' => 'contact'
+]
+
+$_COOKIE = [
+    '_csrf' => '0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW\";}'
+    'PHPSESSID' => '5scn5g7ik2r8f4dq8gusa2q0g4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'mihizax'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WLC@DH8AAAEAACUg@3cAAAAB'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW%22%3B%7D; PHPSESSID=5scn5g7ik2r8f4dq8gusa2q0g4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '54164'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/static&view=contact'
+    'REQUEST_URI' => '/basic/web/index.php?r=site/static&view=contact'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487977996.259
+    'REQUEST_TIME' => 1487977996
+]
+2017-02-25 00:14:11 [127.0.0.1][-][5scn5g7ik2r8f4dq8gusa2q0g4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/static' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('static', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/static', Array)
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-25 00:14:11 [127.0.0.1][-][5scn5g7ik2r8f4dq8gusa2q0g4][info][application] $_GET = [
+    'r' => 'site/static'
+    'view' => 'contact'
+]
+
+$_COOKIE = [
+    '_csrf' => '0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW\";}'
+    'PHPSESSID' => '5scn5g7ik2r8f4dq8gusa2q0g4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'mihizax'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WLC@Q38AAAEAACUixesAAAAD'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW%22%3B%7D; PHPSESSID=5scn5g7ik2r8f4dq8gusa2q0g4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '54166'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/static&view=contact'
+    'REQUEST_URI' => '/basic/web/index.php?r=site/static&view=contact'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487978051.921
+    'REQUEST_TIME' => 1487978051
+]
+2017-02-25 00:15:25 [127.0.0.1][-][5scn5g7ik2r8f4dq8gusa2q0g4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/static' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('static', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/static', Array)
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-25 00:15:25 [127.0.0.1][-][5scn5g7ik2r8f4dq8gusa2q0g4][info][application] $_GET = [
+    'r' => 'site/static'
+    'view' => 'contact'
+]
+
+$_COOKIE = [
+    '_csrf' => '0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW\";}'
+    'PHPSESSID' => '5scn5g7ik2r8f4dq8gusa2q0g4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'mihizax'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WLC@jX8AAAEAACVDR2gAAAAF'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW%22%3B%7D; PHPSESSID=5scn5g7ik2r8f4dq8gusa2q0g4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '54168'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/static&view=contact'
+    'REQUEST_URI' => '/basic/web/index.php?r=site/static&view=contact'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487978125.867
+    'REQUEST_TIME' => 1487978125
+]
+2017-02-25 00:16:04 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'The view file does not exist: /opt/lampp/htdocs/basic/views/site/static/contact.php' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/ViewAction.php:91
+Stack trace:
+#0 [internal function]: yii\web\ViewAction->run()
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Action.php(94): call_user_func_array(Array, Array)
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\Action->runWithParams(Array)
+#3 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pages', Array)
+#4 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/pages', Array)
+#5 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2017-02-25 00:16:04 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ']'' in /opt/lampp/htdocs/basic/views/layouts/main.php:38
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-25 00:16:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/pages'
+    'view' => 'contact'
+]
+
+$_COOKIE = [
+    '_csrf' => '0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW\";}'
+    'PHPSESSID' => '5scn5g7ik2r8f4dq8gusa2q0g4'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WLC@tH8AAAEAACWaLXYAAAAG'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW%22%3B%7D; PHPSESSID=5scn5g7ik2r8f4dq8gusa2q0g4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '54170'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/pages&view=contact'
+    'REQUEST_URI' => '/basic/web/index.php?r=site/pages&view=contact'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487978164.559
+    'REQUEST_TIME' => 1487978164
+]
+2017-02-25 00:16:18 [127.0.0.1][-][5scn5g7ik2r8f4dq8gusa2q0g4][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'The view file does not exist: /opt/lampp/htdocs/basic/views/site/static/contact.php' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/ViewAction.php:91
+Stack trace:
+#0 [internal function]: yii\web\ViewAction->run()
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Action.php(94): call_user_func_array(Array, Array)
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\Action->runWithParams(Array)
+#3 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pages', Array)
+#4 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/pages', Array)
+#5 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2017-02-25 00:16:18 [127.0.0.1][-][5scn5g7ik2r8f4dq8gusa2q0g4][info][application] $_GET = [
+    'r' => 'site/pages'
+    'view' => 'contact'
+]
+
+$_COOKIE = [
+    '_csrf' => '0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW\";}'
+    'PHPSESSID' => '5scn5g7ik2r8f4dq8gusa2q0g4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'mihizax'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WLC@wn8AAAEAACWhzfoAAAAH'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW%22%3B%7D; PHPSESSID=5scn5g7ik2r8f4dq8gusa2q0g4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '54171'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/pages&view=contact'
+    'REQUEST_URI' => '/basic/web/index.php?r=site/pages&view=contact'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487978178.278
+    'REQUEST_TIME' => 1487978178
+]
+2017-02-25 00:18:12 [127.0.0.1][-][5scn5g7ik2r8f4dq8gusa2q0g4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/pages' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('pages', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/pages', Array)
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-25 00:18:12 [127.0.0.1][-][5scn5g7ik2r8f4dq8gusa2q0g4][info][application] $_GET = [
+    'r' => 'site/pages'
+    'view' => 'contact'
+]
+
+$_COOKIE = [
+    '_csrf' => '0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW\";}'
+    'PHPSESSID' => '5scn5g7ik2r8f4dq8gusa2q0g4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'mihizax'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WLC-M38AAAEAACUixe0AAAAD'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW%22%3B%7D; PHPSESSID=5scn5g7ik2r8f4dq8gusa2q0g4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '54175'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/pages&view=contact'
+    'REQUEST_URI' => '/basic/web/index.php?r=site/pages&view=contact'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487978291.994
+    'REQUEST_TIME' => 1487978291
+]
+2017-02-25 00:20:00 [127.0.0.1][-][5scn5g7ik2r8f4dq8gusa2q0g4][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'The requested view "contact bckg=ylowel" must start with a word character, must not contain /../ or /./, can contain only word characters, forward slashes, dots and dashes.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/ViewAction.php:125
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/ViewAction.php(68): yii\web\ViewAction->resolveViewName()
+#1 [internal function]: yii\web\ViewAction->run()
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Action.php(94): call_user_func_array(Array, Array)
+#3 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\Action->runWithParams(Array)
+#4 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('static', Array)
+#5 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/static', Array)
+#6 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-02-25 00:20:00 [127.0.0.1][-][5scn5g7ik2r8f4dq8gusa2q0g4][info][application] $_GET = [
+    'r' => 'site/static'
+    'view' => 'contact bckg=ylowel'
+]
+
+$_COOKIE = [
+    '_csrf' => '0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW\";}'
+    'PHPSESSID' => '5scn5g7ik2r8f4dq8gusa2q0g4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'mihizax'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WLC-oH8AAAEAACWiaUoAAAAI'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW%22%3B%7D; PHPSESSID=5scn5g7ik2r8f4dq8gusa2q0g4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '54181'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/static&view=contact+bckg=ylowel'
+    'REQUEST_URI' => '/basic/web/index.php?r=site/static&view=contact+bckg=ylowel'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487978400.84
+    'REQUEST_TIME' => 1487978400
+]
+2017-02-25 00:20:05 [127.0.0.1][-][5scn5g7ik2r8f4dq8gusa2q0g4][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'The requested view "contact bckg=yellow" must start with a word character, must not contain /../ or /./, can contain only word characters, forward slashes, dots and dashes.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/ViewAction.php:125
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/ViewAction.php(68): yii\web\ViewAction->resolveViewName()
+#1 [internal function]: yii\web\ViewAction->run()
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Action.php(94): call_user_func_array(Array, Array)
+#3 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\Action->runWithParams(Array)
+#4 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('static', Array)
+#5 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/static', Array)
+#6 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-02-25 00:20:05 [127.0.0.1][-][5scn5g7ik2r8f4dq8gusa2q0g4][info][application] $_GET = [
+    'r' => 'site/static'
+    'view' => 'contact bckg=yellow'
+]
+
+$_COOKIE = [
+    '_csrf' => '0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW\";}'
+    'PHPSESSID' => '5scn5g7ik2r8f4dq8gusa2q0g4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'mihizax'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WLC-pX8AAAEAACWiaUwAAAAI'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW%22%3B%7D; PHPSESSID=5scn5g7ik2r8f4dq8gusa2q0g4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '54181'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/static&view=contact+bckg=yellow'
+    'REQUEST_URI' => '/basic/web/index.php?r=site/static&view=contact+bckg=yellow'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487978405.243
+    'REQUEST_TIME' => 1487978405
+]
+2017-02-25 02:28:12 [127.0.0.1][-][5scn5g7ik2r8f4dq8gusa2q0g4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/advTest' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('advTest', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/advTest', Array)
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-25 02:28:12 [127.0.0.1][-][5scn5g7ik2r8f4dq8gusa2q0g4][info][application] $_GET = [
+    'r' => 'site/advTest'
+]
+
+$_COOKIE = [
+    '_csrf' => '0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW\";}'
+    'PHPSESSID' => '5scn5g7ik2r8f4dq8gusa2q0g4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'mihizax'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WLDdrH8AAAEAACWaLXkAAAAG'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW%22%3B%7D; PHPSESSID=5scn5g7ik2r8f4dq8gusa2q0g4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '56683'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/advTest'
+    'REQUEST_URI' => '/basic/web/index.php?r=site/advTest'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487986092.027
+    'REQUEST_TIME' => 1487986092
+]
+2017-02-25 02:28:23 [127.0.0.1][-][5scn5g7ik2r8f4dq8gusa2q0g4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/adv-test' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('adv-test', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/adv-test', Array)
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-25 02:28:22 [127.0.0.1][-][5scn5g7ik2r8f4dq8gusa2q0g4][info][application] $_GET = [
+    'r' => 'site/adv-test'
+]
+
+$_COOKIE = [
+    '_csrf' => '0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW\";}'
+    'PHPSESSID' => '5scn5g7ik2r8f4dq8gusa2q0g4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'mihizax'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WLDdtn8AAAEAACUg@34AAAAB'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW%22%3B%7D; PHPSESSID=5scn5g7ik2r8f4dq8gusa2q0g4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '56685'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/adv-test'
+    'REQUEST_URI' => '/basic/web/index.php?r=site/adv-test'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487986102.987
+    'REQUEST_TIME' => 1487986102
+]
+2017-02-25 02:56:58 [127.0.0.1][-][-][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: /opt/lampp/htdocs/basic/views/news/responsiveContentTest.php' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php:229
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/opt/lampp/htdo...', Array, Object(app\controllers\NewsController))
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('responsiveConte...', Array, Object(app\controllers\NewsController))
+#2 /opt/lampp/htdocs/basic/controllers/NewsController.php(69): yii\base\Controller->render('responsiveConte...', Array)
+#3 [internal function]: app\controllers\NewsController->actionResponsiveContentTest()
+#4 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('responsive-cont...', Array)
+#7 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('news/responsive...', Array)
+#8 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2017-02-25 02:56:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'news/responsive-content-test'
+]
+
+$_COOKIE = [
+    '_csrf' => '0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW\";}'
+    'PHPSESSID' => '5scn5g7ik2r8f4dq8gusa2q0g4'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WLDkan8AAAEAACUg@4AAAAAB'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0379a6516197be567a57b89d36e1c309fe55ede6da05eb3389faf023c6ec20fba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JGtuJy1rcVg_DG8LcJbvov6RaHPDo3BW%22%3B%7D; PHPSESSID=5scn5g7ik2r8f4dq8gusa2q0g4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '57339'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news/responsive-content-test'
+    'REQUEST_URI' => '/basic/web/index.php?r=news/responsive-content-test'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487987818.737
+    'REQUEST_TIME' => 1487987818
+]
+2017-02-25 15:19:09 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: news/contact' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('contact', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('news/contact', Array)
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-25 15:19:09 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WLGSXX8AAAEAABXfqRkAAAAI'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '40684'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/index.php/news/contact'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PATH_INFO' => '/news/contact'
+    'PATH_TRANSLATED' => '/opt/lampp/htdocs/news/contact'
+    'PHP_SELF' => '/basic/web/index.php/news/contact'
+    'REQUEST_TIME_FLOAT' => 1488032349.794
+    'REQUEST_TIME' => 1488032349
+]
+2017-02-25 15:24:00 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index".' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('index', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-25 15:24:00 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLGTgH8AAAEAABXfqR4AAAAI'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLGTgH8AAAEAABXfqR4AAAAI'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '40734'
+    'REDIRECT_URL' => '/basic/web/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/index'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488032640.48
+    'REQUEST_TIME' => 1488032640
+]
+2017-02-25 16:00:20 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "news/business/new-items-list".' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('news/business/n...', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-25 16:00:20 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLGcBH8AAAEAABWs1y0AAAAC'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLGcBH8AAAEAABWs1y0AAAAC'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '40902'
+    'REDIRECT_URL' => '/basic/web/news/business/new-items-list'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/news/business/new-items-list'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488034820.609
+    'REQUEST_TIME' => 1488034820
+]
+2017-02-25 16:00:35 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "news/2015/new-items-list".' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('news/2015/new-i...', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-25 16:00:35 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLGcE38AAAEAABXfqSAAAAAI'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLGcE38AAAEAABXfqSAAAAAI'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '40904'
+    'REDIRECT_URL' => '/basic/web/news/2015/new-items-list'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/news/2015/new-items-list'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488034835.691
+    'REQUEST_TIME' => 1488034835
+]
+2017-02-25 16:01:40 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: d' in /opt/lampp/htdocs/basic/controllers/NewsController.php:34
+Stack trace:
+#0 /opt/lampp/htdocs/basic/controllers/NewsController.php(34): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/opt/lampp/htdo...', 34, Array)
+#1 [internal function]: app\controllers\NewsController->actionNewItemsList()
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('new-items-list', Array)
+#5 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('news/new-items-...', Array)
+#6 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-02-25 16:01:40 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2015'
+]
+
+$_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLGcVH8AAAEAABWrrSYAAAAB'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLGcVH8AAAEAABWrrSYAAAAB'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '40908'
+    'REDIRECT_URL' => '/basic/web/news/2015/new-items-list'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/news/2015/new-items-list'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488034900.501
+    'REQUEST_TIME' => 1488034900
+]
+2017-02-25 16:02:58 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "test-rules/new-items-list".' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('test-rules/new-...', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-25 16:02:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'category' => '20200'
+]
+
+$_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLGcon8AAAEAABWt2GEAAAAD'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLGcon8AAAEAABWt2GEAAAAD'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '40923'
+    'REDIRECT_URL' => '/basic/web/news/20200/new-items-list'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/news/20200/new-items-list'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488034978.402
+    'REQUEST_TIME' => 1488034978
+]
+2017-02-25 16:03:03 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "test-rules/new-items-list".' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('test-rules/new-...', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-25 16:03:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'category' => 'business'
+]
+
+$_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLGcpn8AAAEAABWt2GMAAAAD'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLGcpn8AAAEAABWt2GMAAAAD'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '40923'
+    'REDIRECT_URL' => '/basic/web/news/business/new-items-list'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/news/business/new-items-list'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488034982.973
+    'REQUEST_TIME' => 1488034982
+]
+2017-02-25 16:05:11 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "test-rules/new-items-list".' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('test-rules/new-...', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-25 16:05:11 [127.0.0.1][-][-][info][application] $_GET = [
+    'category' => 'business'
+]
+
+$_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLGdJ38AAAEAABWuFl4AAAAE'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLGdJ38AAAEAABWuFl4AAAAE'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '40947'
+    'REDIRECT_URL' => '/basic/web/news/business/new-items-list'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/news/business/new-items-list'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488035111.561
+    'REQUEST_TIME' => 1488035111
+]
+2017-02-25 16:26:21 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "test-rules/new-items-list".' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('test-rules/new-...', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-25 16:26:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'category' => 'business'
+]
+
+$_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLGiHX8AAAEAABXfqSMAAAAI'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLGiHX8AAAEAABXfqSMAAAAI'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '41039'
+    'REDIRECT_URL' => '/basic/web/news/business/new-items-list'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/news/business/new-items-list'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488036381.464
+    'REQUEST_TIME' => 1488036381
+]
+2017-02-25 18:41:35 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: category' in /opt/lampp/htdocs/basic/views/news/index.php:23
+Stack trace:
+#0 /opt/lampp/htdocs/basic/views/news/index.php(23): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/opt/lampp/htdo...', 23, Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php(328): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/opt/lampp/htdo...', Array)
+#3 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/opt/lampp/htdo...', Array, Object(app\controllers\NewsController))
+#4 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\NewsController))
+#5 /opt/lampp/htdocs/basic/controllers/NewsController.php(44): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\NewsController->actionIndex()
+#7 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#10 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('news', Array)
+#11 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-25 18:41:35 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLHBzn8AAAEAABWt2G4AAAAD'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLHBzn8AAAEAABWt2G4AAAAD'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '41755'
+    'REDIRECT_URL' => '/basic/web/news'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/news'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488044494.139
+    'REQUEST_TIME' => 1488044494
+]
+2017-02-25 18:41:35 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: category' in /opt/lampp/htdocs/basic/views/news/index.php:23
+Stack trace:
+#0 /opt/lampp/htdocs/basic/views/news/index.php(23): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/opt/lampp/htdo...', 23, Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php(328): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/opt/lampp/htdo...', Array)
+#3 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/opt/lampp/htdo...', Array, Object(app\controllers\NewsController))
+#4 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\NewsController))
+#5 /opt/lampp/htdocs/basic/controllers/NewsController.php(44): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\NewsController->actionIndex()
+#7 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#10 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('news', Array)
+#11 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-25 18:41:35 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLHBzX8AAAEAABWs1zcAAAAC'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLHBzX8AAAEAABWs1zcAAAAC'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '41754'
+    'REDIRECT_URL' => '/basic/web/news'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/news'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488044493.583
+    'REQUEST_TIME' => 1488044493
+]
+2017-02-25 18:41:35 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: category' in /opt/lampp/htdocs/basic/views/news/index.php:23
+Stack trace:
+#0 /opt/lampp/htdocs/basic/views/news/index.php(23): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/opt/lampp/htdo...', 23, Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php(328): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/opt/lampp/htdo...', Array)
+#3 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/opt/lampp/htdo...', Array, Object(app\controllers\NewsController))
+#4 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\NewsController))
+#5 /opt/lampp/htdocs/basic/controllers/NewsController.php(44): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\NewsController->actionIndex()
+#7 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#10 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('news', Array)
+#11 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-25 18:41:35 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLHBz38AAAEAABWuFmMAAAAE'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLHBz38AAAEAABWuFmMAAAAE'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '41756'
+    'REDIRECT_URL' => '/basic/web/news'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/news'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488044495.345
+    'REQUEST_TIME' => 1488044495
+]
+2017-02-25 19:09:01 [127.0.0.1][-][-][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: /opt/lampp/htdocs/basic/views/news/internationalIndex.php' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php:229
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/opt/lampp/htdo...', Array, Object(app\controllers\NewsController))
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('internationalIn...', Array, Object(app\controllers\NewsController))
+#2 /opt/lampp/htdocs/basic/controllers/NewsController.php(53): yii\base\Controller->render('internationalIn...')
+#3 [internal function]: app\controllers\NewsController->actionInternationalIndex()
+#4 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('international-i...', Array)
+#7 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('news/internatio...', Array)
+#8 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2017-02-25 19:09:01 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLHIPX8AAAEAABXgLE0AAAAJ'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLHIPX8AAAEAABXgLE0AAAAJ'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '41818'
+    'REDIRECT_URL' => '/basic/web/news/international-index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/news/international-index'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488046141.014
+    'REQUEST_TIME' => 1488046141
+]
+2017-02-25 19:11:06 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: news/<action' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('<action', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('news/<action', Array)
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-25 19:11:06 [127.0.0.1][-][-][info][application] $_GET = [
+    'lang' => 'it'
+    'action' => 'international-index'
+]
+
+$_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLHIun8AAAEAABWt2G8AAAAD'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLHIun8AAAEAABWt2G8AAAAD'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '41841'
+    'REDIRECT_URL' => '/basic/web/it/news/international-index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/it/news/international-index'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488046266.81
+    'REQUEST_TIME' => 1488046266
+]
+2017-02-25 19:11:55 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: news/<action' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('<action', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('news/<action', Array)
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-25 19:11:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'lang' => 'it'
+    'action' => 'international-index'
+]
+
+$_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLHI638AAAEAABXh@xsAAAAK'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLHI638AAAEAABXh@xsAAAAK'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '41858'
+    'REDIRECT_URL' => '/basic/web/it/news/international-index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/it/news/international-index'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488046315.48
+    'REQUEST_TIME' => 1488046315
+]
+2017-02-25 19:16:26 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "rus/news/2015/new-items-list".' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('rus/news/2015/n...', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-25 19:16:26 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLHJ@n8AAAEAABXh@x0AAAAK'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLHJ@n8AAAEAABXh@x0AAAAK'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '41917'
+    'REDIRECT_URL' => '/basic/web/rus/news/2015/new-items-list'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/rus/news/2015/new-items-list'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488046586.782
+    'REQUEST_TIME' => 1488046586
+]
+2017-02-25 21:57:40 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/hello' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('hello', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/hello', Array)
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-25 21:57:40 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLHvxH8AAAEAABWs10QAAAAC'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLHvxH8AAAEAABWs10QAAAAC'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '42691'
+    'REDIRECT_URL' => '/basic/web/site/hello'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/hello'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488056260.532
+    'REQUEST_TIME' => 1488056260
+]
+2017-02-26 01:51:21 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\controllers\RoomsController' in file: /opt/lampp/htdocs/basic/controllers/RoomsController.php. Namespace missing?' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 [internal function]: spl_autoload_call('app\\controllers...')
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(633): class_exists('app\\controllers...')
+#3 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(591): yii\base\Module->createControllerByID('rooms')
+#4 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(517): yii\base\Module->createController('rooms/create')
+#5 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('rooms/create', Array)
+#6 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-02-26 01:51:21 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLImiX8AAAEAABXgLF0AAAAJ'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLImiX8AAAEAABXgLF0AAAAJ'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '43489'
+    'REDIRECT_URL' => '/basic/web/rooms/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/rooms/create'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488070281.432
+    'REQUEST_TIME' => 1488070281
+]
+2017-02-26 01:51:53 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: modelCanSave' in /opt/lampp/htdocs/basic/views/rooms/create.php:8
+Stack trace:
+#0 /opt/lampp/htdocs/basic/views/rooms/create.php(8): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/opt/lampp/htdo...', 8, Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php(328): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/opt/lampp/htdo...', Array)
+#3 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/opt/lampp/htdo...', Array, Object(app\controllers\RoomsController))
+#4 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('create', Array, Object(app\controllers\RoomsController))
+#5 /opt/lampp/htdocs/basic/controllers/RoomsController.php(23): yii\base\Controller->render('create', Array)
+#6 [internal function]: app\controllers\RoomsController->actionCreate()
+#7 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('create', Array)
+#10 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('rooms/create', Array)
+#11 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-26 01:51:53 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLImqX8AAAEAABXiV@8AAAAL'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLImqX8AAAEAABXiV@8AAAAL'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '43496'
+    'REDIRECT_URL' => '/basic/web/rooms/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/rooms/create'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488070313.039
+    'REQUEST_TIME' => 1488070313
+]
+2017-02-27 14:33:46 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Room::phone' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Component.php:147
+Stack trace:
+#0 /opt/lampp/htdocs/basic/views/rooms/create.php(17): yii\base\Component->__get('phone')
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php(328): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/opt/lampp/htdo...', Array)
+#3 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/opt/lampp/htdo...', Array, Object(app\controllers\RoomsController))
+#4 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('create', Array, Object(app\controllers\RoomsController))
+#5 /opt/lampp/htdocs/basic/controllers/RoomsController.php(23): yii\base\Controller->render('create', Array)
+#6 [internal function]: app\controllers\RoomsController->actionCreate()
+#7 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('create', Array)
+#10 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('rooms/create', Array)
+#11 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 14:33:46 [127.0.0.1][-][-][info][application] $_POST = [
+    '_csrf' => 'bDF0eXIwcUIcdDgINWgXDz9oQRY/AgM4KGsdKyZiNxABfQY3EAE2bw=='
+    'Room' => [
+        'floor' => '14'
+        'room_number' => '1408'
+        'has_conditioner' => '1'
+        'has_tv' => '1'
+        'has_phone' => '0'
+        'available_from' => '2017-02-28'
+        'price_per_day' => '2300'
+        'description' => 'The great room'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLQqun8AAAEAAC46be8AAAAB'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLQqun8AAAEAAC46be8AAAAB'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/basic/web/rooms/create'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '332'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '43973'
+    'REDIRECT_URL' => '/basic/web/rooms/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/rooms/create'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488202426.667
+    'REQUEST_TIME' => 1488202426
+]
+2017-02-27 14:36:26 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Formatting currency value failed: 1 Number formatting failed: U_ILLEGAL_ARGUMENT_ERROR' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/i18n/Formatter.php:1071
+Stack trace:
+#0 /opt/lampp/htdocs/basic/views/rooms/create.php(19): yii\i18n\Formatter->asCurrency('2300', 'RUR ')
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php(328): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/opt/lampp/htdo...', Array)
+#3 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/opt/lampp/htdo...', Array, Object(app\controllers\RoomsController))
+#4 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('create', Array, Object(app\controllers\RoomsController))
+#5 /opt/lampp/htdocs/basic/controllers/RoomsController.php(23): yii\base\Controller->render('create', Array)
+#6 [internal function]: app\controllers\RoomsController->actionCreate()
+#7 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('create', Array)
+#10 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('rooms/create', Array)
+#11 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-02-27 14:36:26 [127.0.0.1][-][-][info][application] $_POST = [
+    '_csrf' => 'bDF0eXIwcUIcdDgINWgXDz9oQRY/AgM4KGsdKyZiNxABfQY3EAE2bw=='
+    'Room' => [
+        'floor' => '14'
+        'room_number' => '1408'
+        'has_conditioner' => '1'
+        'has_tv' => '1'
+        'has_phone' => '0'
+        'available_from' => '2017-02-28'
+        'price_per_day' => '2300'
+        'description' => 'The great room'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLQrWn8AAAEAADPkIwoAAAAF'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLQrWn8AAAEAADPkIwoAAAAF'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/basic/web/rooms/create'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '332'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '44015'
+    'REDIRECT_URL' => '/basic/web/rooms/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/rooms/create'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488202586.459
+    'REQUEST_TIME' => 1488202586
+]
+2017-02-27 15:04:42 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\controllers\UploadedFile' not found' in /opt/lampp/htdocs/basic/controllers/RoomsController.php:18
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-27 15:04:42 [127.0.0.1][-][-][info][application] $_POST = [
+    '_csrf' => 'M0Z6U2R5azdDAzYiIyENemAfTzwpSxlNdxwTATArLWVeCggdBkgsGg=='
+    'Room' => [
+        'floor' => '14'
+        'room_number' => '1408'
+        'has_conditioner' => '1'
+        'has_tv' => '1'
+        'has_phone' => '0'
+        'available_from' => '2017-02-28'
+        'price_per_day' => '1408'
+        'description' => 'Big good room'
+        'fileImage' => ''
+    ]
+]
+
+$_FILES = [
+    'Room' => [
+        'name' => [
+            'fileImage' => 'article-mini.jpg'
+        ]
+        'type' => [
+            'fileImage' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'fileImage' => '/opt/lampp/temp/phpQqmg0n'
+        ]
+        'error' => [
+            'fileImage' => 0
+        ]
+        'size' => [
+            'fileImage' => 8856
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLQx@n8AAAEAADPshWIAAAAH'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLQx@n8AAAEAADPshWIAAAAH'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/basic/web/rooms/create'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------135136563816531295681939485332'
+    'CONTENT_LENGTH' => '10646'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '44263'
+    'REDIRECT_URL' => '/basic/web/rooms/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/rooms/create'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488204282.082
+    'REQUEST_TIME' => 1488204282
+]
+2017-02-27 15:06:19 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'move_uploaded_file(/opt/lampp/htdocs/basic/uploadedFiles/article-mini.jpg): failed to open stream: Permission denied' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/UploadedFile.php:163
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'move_uploaded_f...', '/opt/lampp/htdo...', 163, Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/UploadedFile.php(163): move_uploaded_file('/opt/lampp/temp...', '/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/basic/controllers/RoomsController.php(22): yii\web\UploadedFile->saveAs('/opt/lampp/htdo...')
+#3 [internal function]: app\controllers\RoomsController->actionCreate()
+#4 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('create', Array)
+#7 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('rooms/create', Array)
+#8 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2017-02-27 15:06:19 [127.0.0.1][-][-][info][application] $_POST = [
+    '_csrf' => 'M0Z6U2R5azdDAzYiIyENemAfTzwpSxlNdxwTATArLWVeCggdBkgsGg=='
+    'Room' => [
+        'floor' => '14'
+        'room_number' => '1408'
+        'has_conditioner' => '1'
+        'has_tv' => '1'
+        'has_phone' => '0'
+        'available_from' => '2017-02-28'
+        'price_per_day' => '1408'
+        'description' => 'Big good room'
+        'fileImage' => ''
+    ]
+]
+
+$_FILES = [
+    'Room' => [
+        'name' => [
+            'fileImage' => 'article-mini.jpg'
+        ]
+        'type' => [
+            'fileImage' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'fileImage' => '/opt/lampp/temp/php2ZdUYL'
+        ]
+        'error' => [
+            'fileImage' => 0
+        ]
+        'size' => [
+            'fileImage' => 8856
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLQyW38AAAEAADPkIwwAAAAF'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLQyW38AAAEAADPkIwwAAAAF'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/basic/web/rooms/create'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------383175933446489551888597944'
+    'CONTENT_LENGTH' => '10604'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '44286'
+    'REDIRECT_URL' => '/basic/web/rooms/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/rooms/create'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488204379.142
+    'REQUEST_TIME' => 1488204379
+]
+2017-02-27 15:09:15 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'move_uploaded_file(/opt/lampp/htdocs/basic/uploadedfiles/article-mini.jpg): failed to open stream: No such file or directory' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/UploadedFile.php:163
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'move_uploaded_f...', '/opt/lampp/htdo...', 163, Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/UploadedFile.php(163): move_uploaded_file('/opt/lampp/temp...', '/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/basic/controllers/RoomsController.php(22): yii\web\UploadedFile->saveAs('/opt/lampp/htdo...')
+#3 [internal function]: app\controllers\RoomsController->actionCreate()
+#4 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('create', Array)
+#7 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('rooms/create', Array)
+#8 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2017-02-27 15:09:14 [127.0.0.1][-][-][info][application] $_POST = [
+    '_csrf' => 'M0Z6U2R5azdDAzYiIyENemAfTzwpSxlNdxwTATArLWVeCggdBkgsGg=='
+    'Room' => [
+        'floor' => '14'
+        'room_number' => '1408'
+        'has_conditioner' => '1'
+        'has_tv' => '1'
+        'has_phone' => '0'
+        'available_from' => '2017-02-28'
+        'price_per_day' => '1408'
+        'description' => 'Big good room'
+        'fileImage' => ''
+    ]
+]
+
+$_FILES = [
+    'Room' => [
+        'name' => [
+            'fileImage' => 'article-mini.jpg'
+        ]
+        'type' => [
+            'fileImage' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'fileImage' => '/opt/lampp/temp/phpMtvrLY'
+        ]
+        'error' => [
+            'fileImage' => 0
+        ]
+        'size' => [
+            'fileImage' => 8856
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLQzCn8AAAEAADPshWMAAAAH'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLQzCn8AAAEAADPshWMAAAAH'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/basic/web/rooms/create'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------22184057847795643896399025'
+    'CONTENT_LENGTH' => '10590'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '44346'
+    'REDIRECT_URL' => '/basic/web/rooms/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/rooms/create'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488204554.834
+    'REQUEST_TIME' => 1488204554
+]
+2017-02-27 15:10:20 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'move_uploaded_file(/opt/lampp/htdocs/basic/uploadedfiles//article-mini.jpg): failed to open stream: No such file or directory' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/UploadedFile.php:163
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'move_uploaded_f...', '/opt/lampp/htdo...', 163, Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/UploadedFile.php(163): move_uploaded_file('/opt/lampp/temp...', '/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/basic/controllers/RoomsController.php(22): yii\web\UploadedFile->saveAs('/opt/lampp/htdo...')
+#3 [internal function]: app\controllers\RoomsController->actionCreate()
+#4 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('create', Array)
+#7 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('rooms/create', Array)
+#8 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2017-02-27 15:10:20 [127.0.0.1][-][-][info][application] $_POST = [
+    '_csrf' => 'M0Z6U2R5azdDAzYiIyENemAfTzwpSxlNdxwTATArLWVeCggdBkgsGg=='
+    'Room' => [
+        'floor' => '14'
+        'room_number' => '1408'
+        'has_conditioner' => '1'
+        'has_tv' => '1'
+        'has_phone' => '0'
+        'available_from' => '2017-02-28'
+        'price_per_day' => '1408'
+        'description' => 'Big good room'
+        'fileImage' => ''
+    ]
+]
+
+$_FILES = [
+    'Room' => [
+        'name' => [
+            'fileImage' => 'article-mini.jpg'
+        ]
+        'type' => [
+            'fileImage' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'fileImage' => '/opt/lampp/temp/phpvauzyH'
+        ]
+        'error' => [
+            'fileImage' => 0
+        ]
+        'size' => [
+            'fileImage' => 8856
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLQzTH8AAAEAADPrnqsAAAAG'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLQzTH8AAAEAADPrnqsAAAAG'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/basic/web/rooms/create'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------135768704911576829691892346730'
+    'CONTENT_LENGTH' => '10646'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '44350'
+    'REDIRECT_URL' => '/basic/web/rooms/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/rooms/create'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488204620.224
+    'REQUEST_TIME' => 1488204620
+]
+2017-02-27 15:10:33 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'move_uploaded_file(/opt/lampp/htdocs/basic/uploadedfiles/article-mini.jpg): failed to open stream: No such file or directory' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/UploadedFile.php:163
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'move_uploaded_f...', '/opt/lampp/htdo...', 163, Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/UploadedFile.php(163): move_uploaded_file('/opt/lampp/temp...', '/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/basic/controllers/RoomsController.php(22): yii\web\UploadedFile->saveAs('/opt/lampp/htdo...')
+#3 [internal function]: app\controllers\RoomsController->actionCreate()
+#4 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('create', Array)
+#7 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('rooms/create', Array)
+#8 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2017-02-27 15:10:33 [127.0.0.1][-][-][info][application] $_POST = [
+    '_csrf' => 'M0Z6U2R5azdDAzYiIyENemAfTzwpSxlNdxwTATArLWVeCggdBkgsGg=='
+    'Room' => [
+        'floor' => '14'
+        'room_number' => '1408'
+        'has_conditioner' => '1'
+        'has_tv' => '1'
+        'has_phone' => '0'
+        'available_from' => '2017-02-28'
+        'price_per_day' => '1408'
+        'description' => 'Big good room'
+        'fileImage' => ''
+    ]
+]
+
+$_FILES = [
+    'Room' => [
+        'name' => [
+            'fileImage' => 'article-mini.jpg'
+        ]
+        'type' => [
+            'fileImage' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'fileImage' => '/opt/lampp/temp/php7XirG1'
+        ]
+        'error' => [
+            'fileImage' => 0
+        ]
+        'size' => [
+            'fileImage' => 8856
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLQzWX8AAAEAAC45sAIAAAAA'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLQzWX8AAAEAAC45sAIAAAAA'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/basic/web/rooms/create'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------18819089921620226232092358647'
+    'CONTENT_LENGTH' => '10632'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '44351'
+    'REDIRECT_URL' => '/basic/web/rooms/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/rooms/create'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488204633.433
+    'REQUEST_TIME' => 1488204633
+]
+2017-02-27 15:10:45 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'move_uploaded_file(/opt/lampp/htdocs/basic/uploadedFiles/article-mini.jpg): failed to open stream: Permission denied' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/UploadedFile.php:163
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'move_uploaded_f...', '/opt/lampp/htdo...', 163, Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/UploadedFile.php(163): move_uploaded_file('/opt/lampp/temp...', '/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/basic/controllers/RoomsController.php(22): yii\web\UploadedFile->saveAs('/opt/lampp/htdo...')
+#3 [internal function]: app\controllers\RoomsController->actionCreate()
+#4 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('create', Array)
+#7 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('rooms/create', Array)
+#8 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2017-02-27 15:10:45 [127.0.0.1][-][-][info][application] $_POST = [
+    '_csrf' => 'M0Z6U2R5azdDAzYiIyENemAfTzwpSxlNdxwTATArLWVeCggdBkgsGg=='
+    'Room' => [
+        'floor' => '14'
+        'room_number' => '1408'
+        'has_conditioner' => '1'
+        'has_tv' => '1'
+        'has_phone' => '0'
+        'available_from' => '2017-02-28'
+        'price_per_day' => '1408'
+        'description' => 'Big good room'
+        'fileImage' => ''
+    ]
+]
+
+$_FILES = [
+    'Room' => [
+        'name' => [
+            'fileImage' => 'article-mini.jpg'
+        ]
+        'type' => [
+            'fileImage' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'fileImage' => '/opt/lampp/temp/phpHqQQnk'
+        ]
+        'error' => [
+            'fileImage' => 0
+        ]
+        'size' => [
+            'fileImage' => 8856
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLQzZX8AAAEAAC49LAgAAAAE'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLQzZX8AAAEAAC49LAgAAAAE'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/basic/web/rooms/create'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------53733651283715112062137082'
+    'CONTENT_LENGTH' => '10590'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '44352'
+    'REDIRECT_URL' => '/basic/web/rooms/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/rooms/create'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488204645.698
+    'REQUEST_TIME' => 1488204645
+]
+2017-02-27 15:16:40 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: rooms/random_article_pic.jpg' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('random_article_...', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('rooms/random_ar...', Array)
+#2 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-27 15:16:40 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLQ0yH8AAAEAAC49LAoAAAAE'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLQ0yH8AAAEAAC49LAoAAAAE'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/basic/web/rooms/create'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '44383'
+    'REDIRECT_URL' => '/basic/web/rooms/random_article_pic.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/rooms/random_article_pic.jpg'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488205000.103
+    'REQUEST_TIME' => 1488205000
+]
+2017-02-27 15:17:18 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "rooms/localhost/basic/web/uploadedFiles/random_article_pic.jpg".' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('rooms/localhost...', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-27 15:17:18 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLQ07n8AAAEAADPkIxEAAAAF'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLQ07n8AAAEAADPkIxEAAAAF'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/basic/web/rooms/create'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '44389'
+    'REDIRECT_URL' => '/basic/web/rooms/localhost/basic/web/uploadedFiles/random_article_pic.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/rooms/localhost/basic/web/uploadedFiles/random_article_pic.jpg'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488205038.433
+    'REQUEST_TIME' => 1488205038
+]
+2017-02-27 15:17:39 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "uploadedFiles/random_article_pic.jpg".' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('uploadedFiles/r...', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-27 15:17:39 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLQ1A38AAAEAAC45sAMAAAAA'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLQ1A38AAAEAAC45sAMAAAAA'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '44393'
+    'REDIRECT_URL' => '/basic/web/uploadedFiles/random_article_pic.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/uploadedFiles/random_article_pic.jpg'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488205059.865
+    'REQUEST_TIME' => 1488205059
+]
+2017-02-27 15:18:01 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "rooms/localhost/basic/uploadedFiles/random_article_pic.jpg".' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('rooms/localhost...', Array)
+#1 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-02-27 15:18:01 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WLQ1GX8AAAEAAC46bfYAAAAB'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WLQ1GX8AAAEAAC46bfYAAAAB'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/basic/web/rooms/create'
+    'HTTP_COOKIE' => '_csrf=4ed5eee05b7b3e0c31eae5248d4e01ccfa8d77aa954467e80ee2ac47e870f047a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pELqGXfMSY5oM2rzDZiRTRFRmLrNb1G-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '44396'
+    'REDIRECT_URL' => '/basic/web/rooms/localhost/basic/uploadedFiles/random_article_pic.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/rooms/localhost/basic/uploadedFiles/random_article_pic.jpg'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1488205081.868
+    'REQUEST_TIME' => 1488205081
+]
